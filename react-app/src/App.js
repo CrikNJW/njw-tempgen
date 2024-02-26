@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -9,18 +10,16 @@ function App() {
   );
 }
 
-export function DisplayAllForms() {
-  return (
-    <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-        The current link item
-      </a>
-      <a href="#" class="list-group-item list-group-item-action">A second link item</a>
-      <a href="#" class="list-group-item list-group-item-action">A third link item</a>
-      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-      <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
-    </div>
-  )
+export function DisplayFormsToSelect() {
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+      The current link item
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+    <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
+  </div>
 }
 
 
