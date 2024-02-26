@@ -9,7 +9,7 @@ function App() {
   );
 }
 
-export default function DisplayAllForms() {
+export function DisplayAllForms() {
   return (
     <div class="list-group">
     <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
